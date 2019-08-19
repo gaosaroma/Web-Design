@@ -1,0 +1,195 @@
+/*css for header*/
+#header-motto h2 {
+    font-size: 36px;
+}
+
+/*css for info-section*/
+.info-section {
+    background: #40424a;
+    padding: 60px 0
+}
+
+.intro-section {
+    background: #f2f7f8
+}
+.info-text {
+    margin-bottom: 80px
+}
+
+.info-text h1 {
+    font-size: 100px;
+    line-height: normal;
+    margin-bottom: 20px
+}
+
+.info-text p {
+    font-size: 33px;
+    line-height: 1.3
+}
+
+
+.pic {
+    position: relative;
+    overflow: hidden;
+}
+
+figure {
+    position: relative;
+    padding-top: 70px;
+    width: 99999px;
+    height: 662px;
+    left: -496px;
+}
+
+figure img {
+    width: 496px;
+    height: 662px;
+    float: left;
+}
+
+.index {
+    list-style: none;
+}
+
+.index li {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    float: left;
+    margin-left: 10px;
+    background-color: rgba(100, 100, 100, 0.3);
+}
+
+.index .first {
+    background-color: #40424a;
+}
+
+.info-detail h2 {
+    margin-bottom: 30px
+}
+
+.info-detail ul {
+    list-style: none;
+}
+
+.info-detail ul li {
+    font-size: 24px;
+    color: #808181;
+    margin-bottom: 20px;
+}
+
+.info-detail span {
+    color: #40424a;
+    display: inline-block;
+    min-width: 220px;
+}
+
+.info-section .info-detail ul li span {
+    color: #9c9b9b;
+}
+
+
+.info-section .info-detail ul li {
+    color: #fff;
+}
+
+.info-detail ul li:last-child {
+    margin-bottom: 0;
+}
+
+.info-detail ul li a{
+    text-decoration: none;
+    color: #224b8d;
+}
+
+/*css for resume-section*/
+.section-title h2 {
+    display: inline-block;
+    position: relative;
+    margin-bottom: 110px;
+    padding-bottom: 2px;
+    line-height: normal;
+}
+
+.section-title h2:after {
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 2px;
+    left: 0;
+    bottom: 0;
+    background: #40424a
+}
+
+/*css for resume-detail*/
+.time-list {
+    list-style: none;
+    margin-left: 60px;
+    padding-left: 110px;
+    border-left: 2px solid #40424a
+}
+
+.time-list li {
+    margin-bottom: 120px;
+    position: relative
+}
+
+.time-list li:last-child {
+    margin-bottom: 0
+}
+
+.time-list li:after {
+    position: absolute;
+    content: '';
+    width: 15px;
+    height: 15px;
+    border: 2px solid #40424a;
+    border-radius: 50px;
+    background: #cacaca;
+    top: 30px;
+    left: -118px;
+}
+
+.time-list h2 {
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+.time-list h3{
+    font-size: 28px;
+    margin-bottom: 8px;
+}
+.time-list h4 {
+    font-size: 16px;
+    text-transform: uppercase;
+    color: #808181;
+    margin-top: 10px;
+    margin-bottom: 45px
+}
+
+.time-list p {
+    margin-bottom: 0
+}
+
+.public{
+    font-style: italic;
+}
+
+.skill{
+    margin-right: 5%;
+    color: #0c5460;
+}
+
+.resume-section ul li a{
+    text-decoration: none;
+    color: #224b8d;
+}
+
+.resume-section ul li a :hover{
+    text-decoration: underline;
+}
+
+    /*css for footer*/
+.footer-section {
+    background: #f2f7f8;
+    padding: 20px 0
+}

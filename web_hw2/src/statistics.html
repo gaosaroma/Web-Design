@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="css/statistics.css">
+
+</head>
+<body>
+<div class="container">
+    <h3 class="text-center">电影类型</h3>
+
+    <div class="myTooltip"><span class="tooltipContent"></span></div>
+    <div id="genres" class="info col-xs-5">
+    </div>
+
+    <div class="wrapper col-xs-7 text-center">
+        <div id="chart">
+            <svg class="filter">
+                <defs xmlns="http://www.w3.org/2000/svg">
+                    <filter id="filter" height="140%">
+                        <feGaussianBlur in="SourceAlpha" stdDeviation="3"/>
+                        <feOffset dx="0" dy="0" result="offsetblur"/>
+                        <feComponentTransfer>
+                            <feFuncA type="linear" slope="0.5"/>
+                        </feComponentTransfer>
+                        <feMerge>
+                            <feMergeNode/>
+                            <feMergeNode in="SourceGraphic"/>
+                        </feMerge>
+                    </filter>
+                </defs>
+            </svg>
+        </div>
+    </div>
+</div>
+
+
+</body>
+<script src="./js/d3.min.js"></script>
+<script src="./js/jquery-3.3.1.min.js"></script>
+<script type="text/javascript" src="films.js"></script>
+<script type="text/javascript" src="js/statistics.js"></script>
+
+</html>
